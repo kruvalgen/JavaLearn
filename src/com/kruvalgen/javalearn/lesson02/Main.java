@@ -12,6 +12,7 @@ public class Main {
 
         User user1 = new User("Alex", 25);
         System.out.println();
+        System.out.println();
 
     }
 
