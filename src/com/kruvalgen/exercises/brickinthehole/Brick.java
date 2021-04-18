@@ -5,13 +5,12 @@ public class Brick {
     private int brickWidth;
     private int brickLength;
     private int brickHeight;
-    private double diagonalBrick;
+
 
 
     public double brickDiagonal(){
         double b = (brickHeight * 2) + (brickWidth * 2);
-        diagonalBrick = Math.sqrt(b);
-        return diagonalBrick;
+        return Math.sqrt(b);
     }
 
 
@@ -40,11 +39,4 @@ public class Brick {
         this.brickHeight = brickHeight;
     }
 
-    public double getDiagonalBrick() {
-        return diagonalBrick;
-    }
-
-    public void setDiagonalBrick(double diagonalBrick) {
-        this.diagonalBrick = diagonalBrick;
-    }
 }

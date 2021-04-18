@@ -9,6 +9,7 @@ public class Main {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
+
         Hole hole = new Hole();
         System.out.println("Введите диаметр отверстия: ");
         hole.setHoleDiameter(Integer.parseInt(reader.readLine()));
